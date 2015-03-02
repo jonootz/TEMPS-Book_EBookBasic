@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="eBook"
+  Type="EPUB"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[General.eBook] exclude[General.PDF] "
+  Medium="eBook">
+  <DocumentProperties
+    Author="My Name"
+    CoverImage="Content\Resources\Images\CoverPage.png" />
+  <Validation
+    EnableEpubCheck="false" />
+  <MOBI
+    EnableGenerateMobi="false" />
+  <PrintedOutput
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+</CatapultTarget>

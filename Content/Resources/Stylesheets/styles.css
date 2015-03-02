@@ -1,0 +1,182 @@
+/*<meta />*/
+
+body
+{
+	color: #404040;
+	font-family: Arial;
+	font-size: 8pt;
+	line-height: 13px;
+	margin: 8px;
+}
+
+Div.GlossaryPageDefinition
+{
+	font-size: 9pt;
+}
+
+Div.GlossaryPageHeading
+{
+	border-bottom-color: #bed230;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	color: #bed230;
+	font-size: 11pt;
+}
+
+Div.GlossaryPageTerm
+{
+	font-size: 10pt;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+h1
+{
+	border-bottom: none;
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 22pt;
+	font-weight: normal;
+	line-height: 24pt;
+	margin-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+li
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	orphans: 2;
+	widows: 2;
+}
+
+MadCap|glossaryProxy
+{
+	border-top: none;
+}
+
+MadCap|indexProxy
+{
+	border-top: none;
+}
+
+MadCap|tocProxy
+{
+	border-top: none;
+	margin-right: 0.25in;
+}
+
+p
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.Author
+{
+	font-family: 'Century Gothic';
+	font-size: 12pt;
+	text-align: center;
+}
+
+p.Bibliography
+{
+	color: #404040;
+	padding-left: 35px;
+	text-indent: -35px;
+}
+
+p.EmptyPageText
+{
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+p.FrameFooterText
+{
+	font-family: 'Century Gothic';
+	font-size: 24pt;
+}
+
+p.IndexHeading
+{
+	font-size: 11pt;
+	padding-top: 16px;
+	text-align: left;
+}
+
+p.Subtitle
+{
+	font-family: 'Century Gothic';
+	font-size: 14pt;
+	margin-bottom: .75in;
+	margin-top: 18pt;
+	text-align: center;
+}
+
+p.Title
+{
+	color: #bed230;
+	font-family: 'Century Gothic';
+	font-size: 30pt;
+	line-height: 0;
+	margin-top: 2.30in;
+	text-align: center;
+}
+
+p.TOC1
+{
+	font-size: 12pt;
+	font-weight: normal;
+	margin-bottom: 6px;
+	margin-top: 12px;
+}
+
+span.Italic
+{
+	font-style: italic;
+}
+
+@media eBook
+{
+	h1
+	{
+		margin-top: 50px;
+	}
+	
+	Div.GlossaryPageDefinition
+	{
+		color: #404040;
+	}
+	
+	Div.GlossaryPageTerm
+	{
+		color: #000000;
+	}
+	
+	p.Index1
+	{
+		color: #404040;
+		margin-left: 0px;
+	}
+
+	p.IndexHeading
+	{
+		color: #bed230;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+
+	p.Index2
+	{
+		color: #404040;
+	}
+
+	p.TOC1
+	{
+		color: #000000;
+	}
+}
